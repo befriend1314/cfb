@@ -165,7 +165,9 @@
 
 
 /** 找回密码 1716 **/
-
+.login_wrap{
+    min-height: 760px;
+}
 .forgetpsw_box{
     margin: 2.5rem auto 0;
     padding-top: 4rem;
@@ -296,7 +298,6 @@
     -webkit-flex: 1;
     flex: 1;
     padding-left: 10px;
-    padding-top: 5px;
 }
 .forgetpsw_box .seccuess_box .right_txt .txt3{
     margin-bottom: 5px;
@@ -309,4 +310,43 @@
 }
 .forgetpsw_box .seccuess_box .right_txt .txt4 a{
     color: #0d7efb;
+}
+
+@media (max-width: 800px) {
+    .login_wrap{
+        min-width: inherit;
+    }
+    .page_width{
+        width: inherit;
+    }
+    .forgetpsw_box{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        width: inherit;
+    }
+    .forgetpsw_box .from_box{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        width: inherit;
+    }
+    .forgetpsw_box .seccuess_box{
+        width: inherit;
+    }
+    .left_txtbox{
+        display: none;
+    }
+    .loginbox .eleFormbox .yambox{
+        position: absolute;
+        right: 5px;
+        top: 12px;
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .loginbox{
+        float: none;
+        margin-right: inherit;
+        width: inherit;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
 }
